@@ -1,4 +1,4 @@
-//back-end logic
+//business logic 
 function robotOutput(number) {
     let counter = []
     for (let index = 0; index <= number; index += 1) {
@@ -17,9 +17,8 @@ function robotOutput(number) {
     }
     return counter;
   }
-  
-  
-  //UI logic
+
+  //User Interface logic
   
   $(document).ready(function() {
     $("form#numberInput").submit(function(event) {
