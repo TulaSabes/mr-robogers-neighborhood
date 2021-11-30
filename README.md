@@ -22,13 +22,14 @@ In this project we reviewed how to create loops and arrayas in order to give the
 
 ## Specs 
 
-Describe: beepBoop ()
+Describe: robotOutput()
 
-Test: "It should return an arraay with a 0 if the number 0 is imputted"
-Code: beepBoop(0);
-Expected Output: 0
+Test: "It should return a string with a 0 if the number 0 is imputted"
+Code: robotOutput(0)
 
-Test: "It should..." // this is the start of 2nd test for 
+Expected Output: "0"
+
+Test: "It should " // this is the start of 2nd test for 
 ## Setup/Installation Requirements
 
 * [Mr.Robogers Neighborhood ](https://github.com/TulaSabes/mr-robogers-neighborhood)

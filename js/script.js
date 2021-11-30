@@ -1,5 +1,5 @@
 //business logic 
-function robotOutput(number) {
+ function robotOutput(number) {
     let counter = []
     for (let index = 0; index <= number; index += 1) {
       let roboTalk = index.toString();
@@ -15,12 +15,12 @@ function robotOutput(number) {
         counter.push(roboTalk);
       }
     }
-    return counter;
+    return counter.join()
   }
 
   //User Interface logic
   
-  $(document).ready(function() {
+  /*$(document).ready(function() {
     $("form#numberInput").submit(function(event) {
       event.preventDefault();
       let number = ($("input#number").val());
@@ -29,4 +29,6 @@ function robotOutput(number) {
         $("#outputNumber").text(results);
   
     });
-  });
+  }); */
+
+  export default robotOutput 
